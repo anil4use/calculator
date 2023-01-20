@@ -1,23 +1,23 @@
 
-let kkkk ="";
+let out = "";
 let buttons = document.querySelectorAll('.button')
-Array.from(buttons).forEach((button)=>{
-    button.addEventListener('click',(e)=>{
-        if(e.target.innerHTML == '='){
-            kkkk = eval(kkkk);
-            document.querySelector('input').value = kkkk;
+Array.from(buttons).forEach((button) => {
+    button.addEventListener('click', (e) => {
+        if (e.target.innerHTML == '=') {
+            out = eval(out);
+            document.querySelector('input').value = out;
         }
-        else if(
+        else if (
             e.target.innerHTML == 'C'
-        ){
-            kkkk =""
-            document.querySelector('input').value = kkkk;
+        ) {
+            out = ""
+            document.querySelector('input').value = out;
         }
-        else{
+        else {
 
             console.log(e.target)
-            kkkk = kkkk + e.target.innerHTML;
-            document.querySelector('input').value = kkkk;
+            out = out + e.target.innerHTML;
+            document.querySelector('input').value = out;
         }
     })
 })

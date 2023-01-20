@@ -1,69 +1,79 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{background: rgb(162, 194, 194);
-   
-}
-.text-center{
-    text-align: center;
-}
-.container{
-    background: sandybrown;
-   
-    text-align: center;
-    margin-top: 2rem;
-    margin-left: 5rem;
-    padding: 18px;
-    position: absolute;
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 1);
-    background: rgb(81, 104, 104,0.5);
-    border-radius: 1rem;
-}
-.container .row{
+
+body {
+    background: rgb(0, 0, 0);
 
 }
-.container .row button{
+
+.main {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-center {
+
+    margin-top: 1rem;
+    color: #ffff;
+}
+
+.container {
+    background: rgb(255, 255, 255);
+
+    margin: auto;
+    text-align: center;
+    margin-top: 5rem;
+    position: absolute;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0 1rem 2rem rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 1);
+    border-radius: 1rem;
+}
+
+.container .row button {
     margin: 10px;
     padding: 15px;
     color: rgb(0, 0, 0);
-    background: rgb(0, 0, 0,.2);
+    background: rgb(0, 0, 0, .2);
     outline: none;
-    border: 1px solid rgb(153, 156, 156,.2);
-    box-shadow: 0 1rem 2rem rgb(0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 0.5rem;
     cursor: pointer;
     font-size: 30px;
-    
 }
-.container .row button:hover{
-    background: rgb(0, 0, 0,.3);
-    color: rgba(255, 255, 255);
-    box-shadow: 0 1rem 2rem rgb(0, 0, 0,0.2);
+
+.container .row button:hover {
+    background: rgb(100, 100, 100);
+    color: rgb(255, 255, 255);
 }
-.button{
+
+.button {
     width: 4rem;
     height: 5rem;
 }
-.new{
-  font-size: px;
+
+.new {
+    font-size: px;
 }
-.equl{
-   width: 8rem;
-   margin-left:6rem ;
+
+.equl {
+    width: 8rem;
+    margin-left: 6rem;
 }
-.input{
+
+.input {
     margin: 10px;
     padding: 10px;
-   
+
     background: rgba(0, 0, 0, 1);
     color: rgb(255, 255, 255);
     font-size: 25px;
     height: 4rem;
     outline: none;
     border-radius: 1rem;
-}
-.{
-    font-size: 80px;
 }
