@@ -20,7 +20,16 @@ body {
 
     margin-top: 1rem;
     color: #ffff;
+    display: flex;
 }
+@media screen and (max-width: 442px) {
+
+    .text-center {
+
+    font-size: 1.5rem;
+    }
+  }
+  
 
 .container {
     background: rgb(255, 255, 255);

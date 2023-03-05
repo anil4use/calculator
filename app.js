@@ -15,7 +15,7 @@ Array.from(buttons).forEach((button) => {
         }
         else {
 
-            console.log(e.target)
+            // console.log(e.target)
             out = out + e.target.innerHTML;
             document.querySelector('input').value = out;
         }
